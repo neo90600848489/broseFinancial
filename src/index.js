@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import logoImage from './logo.jpeg';
 
-const BookList = () => {
+const BroseFinacial = () => {
     return (
         <section className='bookList'>
-            <Book/>
+            <Login/>
         </section>
     );
 }
 
-const Book = () => {
+const Login = () => {
     return (
       <div className="login-container">
         <div className="logo">
@@ -37,15 +37,6 @@ const Book = () => {
         <a href="https://accounts.google.com/login" className="google-button">Continue with Google</a>
       </div>
     );
-}
-
-const Image = () => <img src="https://images-eu.ssl-images-amazon.com/images/I/512lI7+2SjL._AC_UL900_SR900,600_.jpg"/>;
-
-const Title = () => <h2>I Don't Love You Anymore: Moving On</h2>;
-
-const Author = () => {
-    return <h4>Rithvik Singh</h4>;
-}
-    
+}   
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<BookList/>);
+root.render(<BroseFinacial/>);
